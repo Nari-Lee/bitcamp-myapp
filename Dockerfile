@@ -1,6 +1,6 @@
 FROM openjdk:21-jdk
 
-ARG JAR_FILE=app/build/libs/myapp-0.0.1-SNAPSHOT.jar
+ARG JAR_FILE=app/build/libs/myapp.jar
 
 COPY ${JAR_FILE} myapp.jar
 
